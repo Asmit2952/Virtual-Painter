@@ -15,13 +15,15 @@ vector<vector<int>> newPoints;
 vector<vector<int>> myColors
 { 
 	{91,230,156,101,255,255}, //blue
-	{79,237,126,82,255,255}  //green
+	{79,237,126,82,255,255},  //green
+    {28,69,181,34,246,255}    //yellow
 };
 
 vector<Scalar> myColorValues
 {
 	{255, 0, 0}, //blue
-	{0, 255, 0}  //green
+	{0, 255, 0},//green
+	{0, 255, 255} //yellow
 };
 
 
