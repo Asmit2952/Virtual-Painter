@@ -3,7 +3,7 @@
 First install OpenCV for Windows by [following these steps](https://dev.to/asmit2952/installing-opencv-on-windows-for-c-326i)
 
 The project has two .cpp files (color_picker and virtual_painter).
-The code which I have written is manual operated, which means u have to add colors manually to `virtual_painter.cpp` with the help of `color_picker.cpp`
+The code which I have written is manual operated, which means you have to add colors manually to `virtual_painter.cpp` with the help of `color_picker.cpp`
 
 To do that, follow these steps:
 1. Exclude `virtual_painter.cpp` from the Project file.
