@@ -10,9 +10,23 @@ To do that, follow these steps:
 2. Include `color_picker.cpp`.
 3. Run `color_picker.cpp`. You will see three windows named `Images`, `Images Mask` and `Trackbars`
 4. Take a marker of any color, and move the sliders in `Trackbar` window in such a way that only that specific color of the object should be visible on `Image Mask` window.
+
+![color_picker.cpp](https://github.com/Asmit2952/Virtual-Painter/blob/master/Images/Screenshot%20(63).png)
+
 5. Keep in mind that there shouldn't be any noise in `Image Mask` window.
 6. Now copy the latest values from the `Output Screen`.
+
+![output_screen](https://github.com/Asmit2952/Virtual-Painter/blob/master/Images/Screenshot%20(64).png)
+
 7. Exclude `color_picker.cpp` and include `virtual_painter.cpp`.
 8. Paste those copied values in `vector<vector<int>> myColors`.
+
+![myColor](https://github.com/Asmit2952/Virtual-Painter/blob/master/Images/Screenshot%20(65).png)
+
 9. Next, find the BGR value of your object color and paste it in `vector<Scalar> myColorValues`
+
+![myColorValues](https://github.com/Asmit2952/Virtual-Painter/blob/master/Images/Screenshot%20(66).png)
+
 10. Execute the code, and new color should be displayed when it detects the object of that color
+
+If you have any issues, feel free to contact me😉
